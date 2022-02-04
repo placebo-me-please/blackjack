@@ -59,8 +59,8 @@ class BetValidator_Test(unittest.TestCase):
 	def test_validator_logic(self):
 		player_instance = blackjack.Player("test")
 
-		bet_1 = 200
-		bet_2 = 199
+		bet_1 = 50
+		bet_2 = 49
 		bet_3 = 500
 		bet_4 = 501
 		bet_5 = "abc"
