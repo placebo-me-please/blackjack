@@ -12,6 +12,7 @@ There is a second file in this directory called `component_testing.py`. That scr
 
 ## RULE EXCEPTIONS & KNOWN ISSUES ##
 
-- The player gets the option to continue hitting on a split pair of Aces (typically the player is dealt only one card for each and the player has to stand)
+- The player gets the option to continue hitting on a split pair of Aces (typically the player is dealt only one card for each and the player has to stand).
 - The player cannot insure their bet against dealer when they are showing an Ace--you shouldn't really be doing that anyways ;)
-- If the deck empties the script terminates due to an error (which I'll fix by implementing a Vegas-style deck with a cut shoe to signal a shuffle)
+- If the deck empties the script terminates due to an error, which I'll fix by implementing a Vegas-style deck with a cut shoe to signal a shuffle.
+- The Unittest script will fail even if you comment out the two lines of code. A last-minute refactor now triggers a false-positive `AssertionError` for four of the six test cases. So the Blackjack script is working--it's the test script that's broken.
