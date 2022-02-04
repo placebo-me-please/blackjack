@@ -10,7 +10,7 @@ There is a second file in this directory called `component_testing.py`. That scr
 - Line 4: `os.system('cls' if os.name == 'nt' else 'clear')`
 - Final line: `quit()`
 
-## RULE EXCEPTIONS & KNOWN ISSUES##
+## RULE EXCEPTIONS & KNOWN ISSUES ##
 
 - The player gets the option to continue hitting on a split pair of Aces (typically the player is dealt only one card for each and the player has to stand)
 - The player cannot insure their bet against dealer when they are showing an Ace--you shouldn't really be doing that anyways ;)
