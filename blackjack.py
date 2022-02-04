@@ -18,7 +18,7 @@ card_dict = {\
     'Six':6, 'Seven':7, 'Eight': 8, 'Nine': 9, 'Ten': 10, \
     'Jack': 10, 'Queen': 10, 'King':10, 'Ace': [1, 11]}
 
-buy_in = 5
+buy_in = 50
 round_counter = 1
 
 #----------#
